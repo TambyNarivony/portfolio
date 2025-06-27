@@ -1,90 +1,82 @@
 export const projects = [
   {
     id: 1,
-    title: "Application de Gestion de Stock",
-    slug: "gestion-stock",
-    description: "Une application web complète pour la gestion des stocks, des ventes et des rapports.",
-    longDescription: `Ce projet est une application web robuste développée pour optimiser la gestion des stocks, des commandes clients et fournisseurs, ainsi que la génération de rapports financiers et d'inventaire. L'objectif était de remplacer un système manuel par une solution numérique centralisée et facile à utiliser, améliorant ainsi l'efficacité opérationnelle et la précision des données.
+    title: "SYSTÈME D'ANALYSE DE CONFORMITÉ DE DOCUMENTS PPM PAR IA",
+    slug: "analyse-conformite-documents-ppm-ia",
+    description: "Développement d'une solution innovante pour l'analyse automatisée de la conformité des documents PPM (Plan de Passation des Marchés) à l'aide de l'intelligence artificielle (Python), avec une visualisation des résultats sur des interfaces web et mobile.",
+    longDescription: `Ce projet a consisté au développement d'une solution innovante pour l'analyse automatisée de la conformité des documents PPM (Plan de Passation des Marchés) à l'aide de l'intelligence artificielle (Python), avec une visualisation des résultats sur des interfaces web et mobile.  Ce projet m'a permis de travailler sur l'intégration AI-Frontend-Backend pour une solution complète d'automatisation de processus métier. 
 
     **Fonctionnalités clés :**
-    - Gestion des produits (ajout, modification, suppression, suivi du stock).
-    - Gestion des fournisseurs et des commandes d'approvisionnement.
-    - Gestion des clients et des bons de commande/factures.
-    - Tableaux de bord interactifs pour visualiser les métriques clés.
-    - Rapports exportables (PDF, Excel) sur les ventes, les stocks et les profits.
-    - Système d'authentification et de gestion des rôles (administrateur, gérant, vendeur).
+    - Analyse automatisée de la conformité des documents PPM.
+    - Visualisation des résultats sur des interfaces web et mobile.
+    - Intégration AI-Frontend-Backend pour une solution complète.
 
     **Défis et solutions :**
-    Le principal défi était l'intégration de multiples modules (stock, vente, achat) avec une base de données cohérente et performante. Nous avons utilisé Mongoose pour modéliser les données de manière structurée et optimisé les requêtes pour assurer une réactivité élevée, même avec de grands volumes de données. La gestion des transactions atomiques pour les mises à jour de stock a été cruciale pour maintenir l'intégrité des données.`,
-    technologies: ["Next.js", "JavaScript", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT"],
+    Le principal défi était l'intégration de l'intelligence artificielle avec les interfaces web et mobile pour une solution d'automatisation de processus métier.`,
+    technologies: ["Angular", "Flutter", "Python", "Spring Boot", "PostgreSQL"],
     images: [
-      "/images/projects/projet1.jpg",
-      "/images/projects/projet1.jpg",
-      "/images/projects/projet1.jpg",
+      "/images/projects/projet-ppm.jpg", // You might need to add a relevant image
+      // Add more images if available
     ],
-    githubLink: "https://github.com/votre_nom/gestion-stock-app", // Remplacez par votre lien réel
-    liveLink: "https://gestion-stock-demo.vercel.app", // Remplacez par votre lien réel
-    location: "Projet Freelance pour un client basé à Antananarivo, Madagascar",
-    type: "Web Application",
-    date: "Mars 2024"
+    githubLink: "https://github.com/TambyNarivony/IA_PRS", 
+    location: "Stage de 6 mois à la Ministère de l'Economie et des finances à Antaninarenina",
+    type: "Web and Mobile Application",
+    date: "2025"
   },
   {
     id: 2,
-    title: "Application Mobile de Livraison à Domicile",
-    slug: "app-livraison-mobile",
-    description: "Une application mobile cross-platform pour la commande et le suivi de livraisons de repas.",
-    longDescription: `Cette application mobile vise à connecter les utilisateurs aux restaurants locaux et aux services de livraison. Elle offre une expérience utilisateur fluide pour la commande de repas, le suivi en temps réel des livreurs et un système de paiement intégré. Le projet a été conçu pour le marché malgache, en tenant compte des spécificités locales (options de paiement, cartographie).
+    title: "PPN MARKET MADAGASCAR: PLATEFORME E-COMMERCE DE PRODUITS DE PREMIÈRE NÉCESSITÉ",
+    slug: "ppn-market-madagascar",
+    description: "Conception d'une plateforme e-commerce, 'PPN Market Madagascar, dédiée à la vente en ligne de produits de première nécessité (PPN) à Madagascar, incluant la gestion avancée des produits par catégorie, des clients et des commandes.",
+    longDescription: `Ce projet est une application web robuste développée pour faciliter les achats des produits de première nécessité à Madagascar, de comparer rapidement les prix des produits et de faire des commandes en ligne. L'objectif était de centraliser l'offre de PPN, simplifier la découverte et la comparaison des marques, et offrir une livraison fiable adaptée au contexte malgache. 
 
     **Fonctionnalités clés :**
-    - Navigation par catégorie de restaurants et de plats.
+    - Navigation par catégorie de produits.
     - Panier d'achats et processus de commande intuitif.
-    - Suivi GPS en temps réel du livreur sur une carte.
-    - Notifications push pour les mises à jour de commande.
-    - Système de paiement sécurisé (y compris options mobiles locales comme MVola/Orange Money).
-    - Évaluations et commentaires pour les restaurants et les livreurs.
+    - Système de paiement sécurisé (y compris options mobiles locales comme MVola/Orange Money/Airtel Money).
     - Profil utilisateur et historique des commandes.
+    - Tableau de bord pour l'administrateur pour la gestion des produits, des utilisateurs et des commandes.
+    - Système d'authentification et de gestion des rôles (administrateur et client).
 
     **Défis et solutions :**
-    L'un des défis majeurs fut l'intégration de l'API de géolocalisation pour le suivi en temps réel et l'optimisation des performances pour les appareils mobiles. Nous avons utilisé Firebase Firestore pour la base de données en temps réel et des fonctions Cloud Functions pour la logique serveur, garantissant une mise à jour rapide des états de commande et de livraison. L'intégration des systèmes de paiement mobile locaux a nécessité des recherches et des développements spécifiques pour assurer la conformité et la sécurité.`,
-    technologies: ["React Native", "Expo", "JavaScript", "Firebase (Firestore, Auth, Cloud Functions)", "Redux Toolkit", "React Navigation"],
+    L'un des défis majeurs fut l'intégration du système de paiement en temps réel avec les opérateurs locaux.`,
+    technologies: ["React", "Laravel", "MySQL"],
     images: [
       "/images/projects/projet2.jpg",
       "/images/projects/projet2.jpg",
       "/images/projects/projet2.jpg",
     ],
-    githubLink: "https://github.com/votre_nom/delivery-app-mobile", // Remplacez par votre lien réel
-    liveLink: "Disponible sur Google Play Store et Apple App Store (liens à venir)",
+    githubLink: "https://github.com/TambyNarivony/ppn_market_mg", 
+    // liveLink: "Disponible sur Google Play Store et Apple App Store (liens à venir)",
     location: "Projet personnel, conçu spécifiquement pour le marché d'Antananarivo, Madagascar",
-    type: "Mobile Application",
-    date: "Janvier 2024"
+    type: "Web Application",
+    date: "2025"
   },
   {
     id: 3,
-    title: "Plateforme E-learning Interactive",
-    slug: "e-learning-platform",
-    description: "Une plateforme web pour l'apprentissage en ligne avec des cours interactifs et un suivi des progrès.",
-    longDescription: `Cette plateforme e-learning a été conçue pour offrir une expérience d'apprentissage dynamique et personnalisée. Elle permet aux instructeurs de créer et de gérer des cours, et aux étudiants de suivre des leçons, de passer des quiz et de suivre leurs progrès. L'accent a été mis sur l'interactivité et la facilité d'utilisation.
+    title: "LIBRINET",
+    slug: "librinet",
+    description: "Développement d'une plateforme interactive pour une bibliothèque en ligne, permettant la recherche, la consultation, et la gestion des livres, incluant un système d'authentification utilisateur et des listes de lecture personnelles.",
+    longDescription: `Cette plateforme a été conçue comme une bibliothèque en ligne interactive, permettant la recherche, la consultation et la gestion des livres.  Elle inclut un système d'authentification utilisateur et des listes de lecture personnelles.  L'objectif est de mettre en pratique les compétences en développement web pour créer un site interactif de gestion de livres offrant des fonctionnalités de recherche, d'ajout, de modification et de suppression de livres. 
 
     **Fonctionnalités clés :**
-    - Création et gestion de cours avec différents types de contenu (vidéos, textes, quiz).
-    - Profils étudiants avec suivi des progrès et certifications.
-    - Système de commentaires et de forums pour l'interaction.
-    - Tableau de bord instructeur pour la gestion des inscrits et des statistiques.
-    - Intégration de paiement pour les cours premium.
+    - Recherche, consultation et gestion des livres.
+    - Système d'authentification utilisateur.
+    - Listes de lecture personnelles.
+    - Fonctions d'ajout, modification et suppression de livres.
 
     **Défis et solutions :**
-    La gestion de contenu riche et l'intégration d'un lecteur vidéo sécurisé étaient des aspects cruciaux. Nous avons utilisé Next.js pour le rendu côté serveur afin d'améliorer le SEO des pages de cours et la performance initiale. L'API pour les quiz et le suivi des progrès a été développée avec Node.js, et une base de données PostgreSQL a été choisie pour sa robustesse dans la gestion des relations complexes entre utilisateurs, cours et leçons.`,
-    technologies: ["Next.js", "React", "Node.js", "Express.js", "PostgreSQL", "Prisma ORM", "Stripe API"],
+    Le projet visait à développer une application web complète pour la gestion des livres, des prêts et des lecteurs dans une bibliothèque, en remplaçant un système manuel par une solution numérique centralisée et facile à utiliser.`,
+    technologies: ["Next.js", "Node.js", "Express.js", "MongoDB"],
     images: [
-      "/images/projects/projet3.jpg",
-      "/images/projects/projet3.jpg",
-      "/images/projects/projet3.jpg",
+      "/images/projects/projet1.jpg",
+      "/images/projects/projet1.jpg",
+      "/images/projects/projet1.jpg",
     ],
-    githubLink: "https://github.com/votre_nom/e-learning-platform", // Remplacez par votre lien réel
-    liveLink: "https://e-learning-demo.vercel.app", // Remplacez par votre lien réel
-    location: "Projet Universitaire - Université d'Antananarivo, Département Informatique",
+    githubLink: "https://github.com/TambyNarivony/gestion_biblioth-que",
+    // liveLink: "", // Add if a live demo exists
+    location: "Projet personel d'ici Antananarivo, Madagascar",
     type: "Web Application",
-    date: "Novembre 2023"
+    date: "2024"
   }
-  // Ajoutez d'autres projets ici
 ];

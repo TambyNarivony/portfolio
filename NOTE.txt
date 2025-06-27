@@ -1,0 +1,1 @@
+Sur les parties images, ne pas utiliser fill et style {{.... cover }} mais utiliser width et height car sinon, les images n'apparaîsseront pas

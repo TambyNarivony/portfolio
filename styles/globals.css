@@ -1,15 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Supprimez les directives Tailwind */
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
-html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #0d1117; /* Couleur de fond sombre */
-  color: #e6edf3; /* Couleur de texte clair */
+  background-color: #0d1117;
+  color: #e6edf3;
 }
 
 a {
@@ -21,9 +19,23 @@ a {
   box-sizing: border-box;
 }
 
-/* Vous pouvez ajouter des styles personnalisés ici */
+/* Styles personnalisés */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.liste {
+  list-style: none;
+  padding: 1rem;
+}
+
+/* Couleurs personnalisées */
+.bg-dark-custom {
+  background-color: #1a1a1a;
+}
+
+.text-blue-custom {
+  color: #4dabf7;
 }

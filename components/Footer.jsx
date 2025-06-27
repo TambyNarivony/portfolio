@@ -3,38 +3,38 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-6 mt-8">
-      <div className="container mx-auto px-4 flex flex-col items-center justify-center text-center">
-        <p className="text-lg mb-4">Connectez-vous avec moi :</p>
-        <div className="flex space-x-6 mb-4">
+    <footer className="bg-dark-custom text-white py-4 mt-auto">
+      <div className="container text-center">
+        <p className="lead mb-3">Connectez-vous avec moi :</p>
+        <div className="d-flex justify-content-center gap-4 mb-3">
           <a
-            href="https://github.com/votre_nom_github" // Remplacez par votre profil GitHub
+            href="https://github.com/TambyNarivony"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-blue-400 transition-colors"
+            className=" hover-text-primary"
             aria-label="GitHub Profile"
           >
-            <FaGithub size={30} />
+            <FaGithub size={25} />
           </a>
           <a
-            href="https://linkedin.com/in/votre_nom_linkedin" // Remplacez par votre profil LinkedIn
+            // href="https://linkedin.com/in/votre_nom_linkedin"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-blue-400 transition-colors"
+            className=" hover-text-primary"
             aria-label="LinkedIn Profile"
           >
-            <FaLinkedin size={30} />
+            <FaLinkedin size={25} />
           </a>
           <a
-            href="mailto:votre.email@example.com" // Remplacez par votre email
-            className="text-gray-300 hover:text-blue-400 transition-colors"
+            href="mailto:tambynarivony19@gmail.com" 
+            className=" hover-text-primary"
             aria-label="Email"
           >
-            <FaEnvelope size={30} />
+            <FaEnvelope size={25} />
           </a>
         </div>
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} Votre Nom. Tous droits réservés.
+        <p className="small">
+          &copy; {new Date().getFullYear()} Tamby Narivony. Tous droits réservés.
         </p>
       </div>
     </footer>

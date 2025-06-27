@@ -13,21 +13,21 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-gray-800 text-white shadow-md">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/">
-          <p className="text-2xl font-bold cursor-pointer hover:text-blue-400 transition-colors">
-            Votre Nom
-          </p>
+    <header className="bg-dark-custom text-white shadow-sm">
+      <div className="container d-flex justify-content-between align-items-center py-3">
+        <Link href="/" className="text-decoration-none">
+          <span className="h4 fw-bold m-0 hover-text-primary">
+            Tamby Narivony
+          </span>
         </Link>
         <nav>
-          <ul className="flex space-x-6">
+          <ul className="d-flex gap-4 list-unstyled m-0">
             {navLinks.map((link) => (
               <li key={link.path}>
-                <Link href={link.path}>
-                  <p className={`text-lg hover:text-blue-400 transition-colors ${router.pathname === link.path ? 'text-blue-400 font-semibold' : ''}`}>
+                <Link href={link.path} className="text-decoration-none">
+                  <span className={`hover-text-primary ${router.pathname === link.path ? 'text-primary fw-semibold' : ''}`}>
                     {link.name}
-                  </p>
+                  </span>
                 </Link>
               </li>
             ))}
