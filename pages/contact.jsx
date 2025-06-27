@@ -149,7 +149,7 @@ const Contact = () => {
                 <FaEnvelope className="me-2" size={20} /> tambynarivony19@gmail.com
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/tamby-narivony-304675371"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="d-flex align-items-center text-decoration-none hover-text-primary"
