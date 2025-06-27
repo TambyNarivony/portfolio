@@ -143,13 +143,13 @@ const Contact = () => {
             <h2 className="h3 fw-bold text-white mb-3">Autres Moyens de Contact</h2>
             <div className="d-flex flex-wrap justify-content-center gap-3">
               <a
-                href="mailto:votre.email@example.com"
+                href="mailto:tambynarivony19@gmail.com"
                 className="d-flex align-items-center text-decoration-none hover-text-primary"
               >
-                <FaEnvelope className="me-2" size={20} /> votre.email@example.com
+                <FaEnvelope className="me-2" size={20} /> tambynarivony19@gmail.com
               </a>
               <a
-                href="https://linkedin.com/in/votre_nom_linkedin"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="d-flex align-items-center text-decoration-none hover-text-primary"
@@ -157,7 +157,7 @@ const Contact = () => {
                 <FaLinkedin className="me-2" size={20} /> LinkedIn
               </a>
               <a
-                href="https://github.com/votre_nom_github"
+                href="https://github.com/TambyNarivony"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="d-flex align-items-center text-decoration-none hover-text-primary"
@@ -165,10 +165,10 @@ const Contact = () => {
                 <FaGithub className="me-2" size={20} /> GitHub
               </a>
               <a
-                href="tel:+2613XXXXXXXX"
+                href="#"
                 className="d-flex align-items-center text-decoration-none hover-text-primary"
               >
-                <FaPhone className="me-2" size={20} /> +261 3X XX XXX XX
+                <FaPhone className="me-2" size={20} /> +261 34 27 382 95
               </a>
             </div>
           </div>

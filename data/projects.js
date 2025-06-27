@@ -15,8 +15,9 @@ export const projects = [
     Le principal défi était l'intégration de l'intelligence artificielle avec les interfaces web et mobile pour une solution d'automatisation de processus métier.`,
     technologies: ["Angular", "Flutter", "Python", "Spring Boot", "PostgreSQL"],
     images: [
-      "/images/projects/projet-ppm.jpg", // You might need to add a relevant image
-      // Add more images if available
+      "/images/projects/IA_PRS1.png", 
+      "/images/projects/IA_PRS2.png", 
+      "/images/projects/IA_PRS3.png", 
     ],
     githubLink: "https://github.com/TambyNarivony/IA_PRS", 
     location: "Stage de 6 mois à la Ministère de l'Economie et des finances à Antaninarenina",
@@ -42,9 +43,9 @@ export const projects = [
     L'un des défis majeurs fut l'intégration du système de paiement en temps réel avec les opérateurs locaux.`,
     technologies: ["React", "Laravel", "MySQL"],
     images: [
-      "/images/projects/projet2.jpg",
-      "/images/projects/projet2.jpg",
-      "/images/projects/projet2.jpg",
+      "/images/projects/PPN1.png",
+      "/images/projects/PPN2.png",
+      "/images/projects/PPN3.png",
     ],
     githubLink: "https://github.com/TambyNarivony/ppn_market_mg", 
     // liveLink: "Disponible sur Google Play Store et Apple App Store (liens à venir)",
@@ -69,9 +70,9 @@ export const projects = [
     Le projet visait à développer une application web complète pour la gestion des livres, des prêts et des lecteurs dans une bibliothèque, en remplaçant un système manuel par une solution numérique centralisée et facile à utiliser.`,
     technologies: ["Next.js", "Node.js", "Express.js", "MongoDB"],
     images: [
-      "/images/projects/projet1.jpg",
-      "/images/projects/projet1.jpg",
-      "/images/projects/projet1.jpg",
+      "/images/projects/gestion1.png",
+      "/images/projects/gestion2.png",
+      "/images/projects/gestion3.png",
     ],
     githubLink: "https://github.com/TambyNarivony/gestion_biblioth-que",
     // liveLink: "", // Add if a live demo exists

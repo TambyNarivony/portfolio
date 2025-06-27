@@ -37,7 +37,7 @@ const About = () => {
           <div className="d-flex justify-content-center mt-4">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <a
-                href="/CV.pdf"
+                href="/CV2.pdf"
                 download
                 className="btn btn-primary btn-lg px-4 py-2 shadow"
               >
